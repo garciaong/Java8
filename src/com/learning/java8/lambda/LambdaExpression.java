@@ -7,10 +7,19 @@ public class LambdaExpression {
 		playerService.sayMessage("Henry", 14);
 
 		StringManipulation substring = (String string, int start, int end) -> string.substring(start, end);
-		StringManipulation indexOf = (String string, int start, int end) -> string.charAt(start)+" & "+string.charAt(end);
-		
-		System.out.println("Substring "+substring.operation("Apple Pie",0,3));
-		System.out.println("Index Of "+indexOf.operation("Apple Pie",0,3));
+		StringManipulation indexOf = (String string, int start, int end) -> string.charAt(start) + " & "
+				+ string.charAt(end);
+
+		System.out.println("Substring " + substring.operation("Apple Pie", 0, 3));
+		System.out.println("Index Of " + indexOf.operation("Apple Pie", 0, 3));
+
+		/**
+		 * Result :
+		 * 
+		 * Henry wears jersey number 14 
+		 * Substring App 
+		 * Index Of A & l
+		 */
 	}
 
 	interface PlayerService {

@@ -38,6 +38,19 @@ public class DateAndTime {
 		// parse a string
 		LocalTime date5 = LocalTime.parse("20:15:30");
 		System.out.println("date5: " + date5);
+
+		/**
+		 * Result :
+		 * 
+		 * Current DateTime: 2020-12-30T15:53:50.256 
+		 * date1: 2020-12-30 
+		 * Month: DECEMBER, Day: 30, Seconds: 50 
+		 * date2: 2012-12-10T15:53:50.256 
+		 * date3: 2014-12-12 
+		 * date3 in yyyyMMdd format: 20141212 
+		 * date4: 22:15 
+		 * date5: 20:15:30
+		 */
 	}
 
 }
