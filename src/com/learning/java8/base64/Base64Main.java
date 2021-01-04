@@ -1,4 +1,4 @@
-package com.learning.jave8.base64;
+package com.learning.java8.base64;
 
 import java.util.Base64;
 
